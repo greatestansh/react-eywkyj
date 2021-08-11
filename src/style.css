@@ -74,6 +74,17 @@ html,body{
       align-items: center;
       justify-content: center;
    }
+   footer div{
+     height :10vp;
+     width :10vp;
+     background-color:#009688 ;
+     border: 1px;
+     border-style:double ;
+     position:absolute;
+     top:20vh;
+     
+
+   }
    button{
      padding:10px;
      background-color:#9C27B0;
