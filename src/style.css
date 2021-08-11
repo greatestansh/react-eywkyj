@@ -1,13 +1,14 @@
+*{
+  margin:0px;
+}
 h1, p {
   font-family: Lato;
 }
-html{
+html,body{
   height:100%;
   padding: 0%;
 }
-body{
-  margin:0px;
-}
+
 .ima{
   height: 200px;
   width: 350px;
@@ -64,13 +65,18 @@ body{
     color:#00a56e
   }
   footer{  
-    position:absolute;
+    position:relative;
     display:flex;
       bottom: 0px;
-      height:100px;
+      height:100vh;
       width:100%;
       background:#0345fc;
       align-items: center;
       justify-content: center;
+   }
+   button{
+     padding:10px;
+     background-color:#9C27B0;
+     border-radius:8px;
    }
   
